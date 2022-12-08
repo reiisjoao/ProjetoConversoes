@@ -8,7 +8,7 @@ echo "Então vamos começar $nome !" .PHP_EOL;
 PHP_EOL;
 echo "Esse sistema trabalha com a conversão de:".PHP_EOL;
 echo "1- Unidade de Comprimento." .PHP_EOL;
-echo "2- Unidades de Área.".PHP_EOL;
+echo "2- Medidas de Massa.".PHP_EOL;
 echo "3- Medidas de Velocidade." .PHP_EOL;
 echo "4- Medidas de Tempo." .PHP_EOL;
 echo "5- Medidas de Temperatura." .PHP_EOL;
