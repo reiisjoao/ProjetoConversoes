@@ -7,29 +7,31 @@ tonelada= / 1000 = t
 quilate= * 5000 = ct
 onça = * 35.274 = oz
 */
+$num = 10;
+
 function libra($num)
 {
     return $num * 2.205;
 }
 
-function tonelada($num1)
+function tonelada($num)
 {
-    return $num1 / 1000;
+    return $num / 1000;
 }
 
-function quilate($num2)
+function quilate($num)
 {
-    return $num2 * 5000;
+    return $num * 5000;
 }
 
-function onca($num3)
+function onca($num)
 {
-    return $num3 * 35.274;
+    return $num * 35.274;
 }
 
-echo "A conversão para libra é: " .libra(10) . " lb." . PHP_EOL;
-echo "A conversão para tonelada é: " .tonelada(10). " t." .PHP_EOL;
-echo "A conversão para quilate é: " .quilate(10). " ct." .PHP_EOL;
-echo "A conversão para onça é :" .onca(10). " oz.".PHP_EOL;
+echo "A conversão para libra é: " .libra($num). " lb." . PHP_EOL;
+echo "A conversão para tonelada é: " .tonelada($num). " t." .PHP_EOL;
+echo "A conversão para quilate é: " .quilate($num). " ct." .PHP_EOL;
+echo "A conversão para onça é :" .onca($num). " oz.".PHP_EOL;
 
 ?>

@@ -7,23 +7,25 @@ milha por hora = / 1.609 = mi/h
 pes por segundo = / 1.097 = ft/s
 */
 
+$num = 10;
+
 function metro($num)
 {
     return $num / 3.6;
 }
 
-function milha($num1)
+function milha($num)
 {
-    return $num1 / 1.609;
+    return $num / 1.609;
 }
 
-function pe($num2)
+function pe($num)
 {
-    return $num2 / 1.097;
+    return $num / 1.097;
 }
 
-echo "A conversão para metro por segundo é: ".metro(10) ." m/s." .PHP_EOL;
-echo "A conversão para milha por hora é: ".milha(10) . " mi/h.".PHP_EOL;
-echo "A conversão para pé por segundo é: ".pe(10) . " ft/s.".PHP_EOL;
+echo "A conversão para metro por segundo é: ".metro($num) ." m/s." .PHP_EOL;
+echo "A conversão para milha por hora é: ".milha($num) . " mi/h.".PHP_EOL;
+echo "A conversão para pé por segundo é: ".pe($num) . " ft/s.".PHP_EOL;
 
 ?>
